@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/palais_de_justice">
+
+    <Button
+        android:id="@+id/acceuil_domaines"
+        android:layout_width="140dp"
+        android:layout_height="142dp"
+        android:text="@string/domaines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/beige"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/acceuil_avocats"
+        android:layout_width="140dp"
+        android:layout_height="142dp"
+        android:text="@string/avocats"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.775"
+        app:layout_constraintStart_toEndOf="@+id/acceuil_domaines"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/beige"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/acceuil_connexion"
+        android:layout_width="349dp"
+        android:layout_height="49dp"
+        android:text="@string/connexion"
+        app:layout_constraintBottom_toTopOf="@+id/acceuil_enregistrer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acceuil_domaines"
+        app:layout_constraintVertical_bias="0.459"
+        android:backgroundTint="@color/beige"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/acceuil_enregistrer"
+        android:layout_width="349dp"
+        android:layout_height="49dp"
+        android:text="@string/s_enregistrer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acceuil_domaines"
+        app:layout_constraintVertical_bias="0.502"
+        android:backgroundTint="@color/beige"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/acceuil_deconnexion"
+        android:layout_width="349dp"
+        android:layout_height="49dp"
+        android:text="@string/deconnexion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/acceuil_enregistrer"
+        app:layout_constraintVertical_bias="0.479"
+        android:visibility="gone" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

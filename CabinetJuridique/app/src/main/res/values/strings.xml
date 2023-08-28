@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Cabinet Juridique</string>
+    <string name="domaines">Domaines</string>
+    <string name="avocats">Avocats</string>
+    <string name="connexion">Connexion</string>
+    <string name="s_enregistrer">S\'enregistrer</string>
+    <string name="title_activity_domaines">Domaines</string>
+    <string name="deconnexion">Deconnexion</string>
+    <string name="close">Close</string>
+    <string name="entrez_votre_nom">Entrez votre nom</string>
+    <string name="entrez_votre_mail">Entrez votre mail</string>
+    <string name="entrez_votre_mot_de_passe">Entrez votre mot de passe</string>
+    <string name="entrez_votre_telephone">Entrez votre telephone</string>
+    <string name="rendez_vous">Rendez-vous</string>
+    <string name="choisissez_une_date">Choisissez une date</string>
+    <string name="choisissez_une_heure">Choisissez une heure</string>
+    <string name="confirmer">Confirmer</string>
+</resources>
